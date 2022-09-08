@@ -1,3 +1,8 @@
+.html{
+	position: relative;
+	min-height: 100%;
+}
+
 @font-face{
 	font-family: BalooTamma2;
 	src: url(../fonts/BalooTamma2-Regular.ttf);
@@ -133,13 +138,26 @@ body{
 	background-size: 100%;
 }
 
-footer{
+.classfooter{
 	background-color: #333;
 	height: 4rem;
 	color: #fefefe;	
 	padding: 15px;
 	font-size: 16px;
 	font-family: BalooTamma2, arvo, "Helvetica neue", serif;
+}
+
+.footer{
+	background-color: #333;
+	height: 4rem;
+	color: #fefefe;	
+	padding: 15px;
+	font-size: 16px;
+	font-family: BalooTamma2, arvo, "Helvetica neue", serif;
+	position: absolute;
+	bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 footer p{
