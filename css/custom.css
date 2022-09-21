@@ -27,6 +27,10 @@
 	font-weight: 500;
 }
 
+.name a{
+	margin-left: 0 !important;
+}
+
 body{
 	font-family: BalooTamma2, arvo, "Helvetica neue", serif;
 }
@@ -40,6 +44,24 @@ body{
 	text-align: center;
 }
 
+.center-image {
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.padding-up{
+	padding-top: 60px;
+}
+
+
+hr{
+	border-top: 3px solid;
+}
+
+.spacer {
+	padding-top: 75px;
+	padding-bottom: 75px;
+}
 
 .navbar {
 	background-color: transparent;
